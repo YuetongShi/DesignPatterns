@@ -1,6 +1,7 @@
 public class Ravenclaw implements House{
 
     private String headName;
+    private final String houseName = "Ravenclaw";
 
     public Ravenclaw(){
         this.headName = "Filius Flitwick";
@@ -14,7 +15,11 @@ public class Ravenclaw implements House{
     @Override
     public void changeHeadOfHouse(String newHead) {
         this.headName = newHead;
-        System.out.println("According to the order of the Ministry of Magic, " +
-                "the new head of Ravenclaw is " + this.headName);
+        System.out.println("According to the order of the Ministry of Magic, the new head of " +
+                this.houseName + "is " + this.headName);
+    }
+
+    public String getHouseName() {
+        return this.houseName;
     }
 }
