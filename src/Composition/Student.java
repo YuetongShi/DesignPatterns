@@ -1,4 +1,4 @@
-package Composite;
+package Composition;
 
 public class Student {
     private String name;
