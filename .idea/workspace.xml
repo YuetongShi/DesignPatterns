@@ -4,19 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e14567b-f0bc-4797-a147-10ffb6532ac9" name="Changes" comment="Add getName()">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Composite/Hogwarts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Composite/Houses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Composite/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Composite/Student.java" afterDir="false" />
+    <list default="true" id="4e14567b-f0bc-4797-a147-10ffb6532ac9" name="Changes" comment="Add Composite Pattern">
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Filling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Rice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Seaweed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Decorator/Topping.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Gryffindor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strategy/Gryffindor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strategy/House.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Hufflepuff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strategy/Hufflepuff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strategy/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ravenclaw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strategy/Ravenclaw.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Slytherin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strategy/Slytherin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Composite/Hogwarts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Composition/Hogwarts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Composite/Houses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Composition/Houses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Composite/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Composition/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Composite/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Composition/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -99,7 +96,7 @@
       <workItem from="1772848139360" duration="2439000" />
       <workItem from="1780108003493" duration="3721000" />
       <workItem from="1780111767802" duration="1372000" />
-      <workItem from="1780158485299" duration="12985000" />
+      <workItem from="1780158485299" duration="14576000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -157,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780111950645</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add Composite Pattern">
+      <option name="closed" value="true" />
+      <created>1780285007811</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1780285007811</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +173,7 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Added strategy pattern" />
     <MESSAGE value="Add getName()" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add getName()" />
+    <MESSAGE value="Add Composite Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Composite Pattern" />
   </component>
 </project>

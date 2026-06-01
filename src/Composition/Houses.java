@@ -1,8 +1,8 @@
-package Composite;
+package Composition;
 
 public enum Houses {
     GRYFFINDOR,
     HUFFLEPUFF,
     RAVENCLAW,
-    SLYTHERIN;
+    SLYTHERIN
 }
