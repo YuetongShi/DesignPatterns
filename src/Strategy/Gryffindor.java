@@ -1,7 +1,9 @@
-public class Gryffindor implements House{
+package Strategy;
+
+public class Gryffindor implements House {
 
     private String headName;
-    private final String houseName = "Gryffindor";
+    private final String houseName = "strategy.Gryffindor";
 
     public Gryffindor(){
         this.headName = "Minerva McGonagall";

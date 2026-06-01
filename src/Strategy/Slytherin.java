@@ -1,4 +1,6 @@
-public class Slytherin implements House{
+package Strategy;
+
+public class Slytherin implements House {
 
     private String headName;
 
@@ -15,6 +17,6 @@ public class Slytherin implements House{
     public void changeHeadOfHouse(String newHead) {
         this.headName = newHead;
         System.out.println("According to the order of the Ministry of Magic, " +
-                "the new head of Slytherin is " + this.headName);
+                "the new head of strategy.Slytherin is " + this.headName);
     }
 }

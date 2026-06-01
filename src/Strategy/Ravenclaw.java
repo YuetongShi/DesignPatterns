@@ -1,7 +1,9 @@
-public class Ravenclaw implements House{
+package Strategy;
+
+public class Ravenclaw implements House {
 
     private String headName;
-    private final String houseName = "Ravenclaw";
+    private final String houseName = "strategy.Ravenclaw";
 
     public Ravenclaw(){
         this.headName = "Filius Flitwick";

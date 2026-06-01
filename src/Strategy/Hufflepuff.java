@@ -1,6 +1,8 @@
-public class Hufflepuff implements House{
+package Strategy;
+
+public class Hufflepuff implements House {
     private String headName;
-    private final String houseName = "Hufflepuff";
+    private final String houseName = "strategy.Hufflepuff";
 
     public Hufflepuff(){
         this.headName = "Pomona Sprout";

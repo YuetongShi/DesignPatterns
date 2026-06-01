@@ -1,3 +1,5 @@
+package Strategy;
+
 public interface House {
 
     // Strategy Pattern
