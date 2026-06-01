@@ -4,14 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e14567b-f0bc-4797-a147-10ffb6532ac9" name="Changes" comment="Fix composition and add enum for decorator">
-      <change afterPath="$PROJECT_DIR$/src/Composition/Composite/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Composition/Composite/Gender.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Composition/Composite/Labrador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Composition/Composite/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Composition/Composite/Mom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Composition/Composite/Puppy.java" afterDir="false" />
+    <list default="true" id="4e14567b-f0bc-4797-a147-10ffb6532ac9" name="Changes" comment="Add getName()">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Composite/Hogwarts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Composite/Houses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Composite/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Composite/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gryffindor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strategy/Gryffindor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/House.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strategy/House.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Hufflepuff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strategy/Hufflepuff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strategy/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ravenclaw.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strategy/Ravenclaw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Slytherin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Strategy/Slytherin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +99,7 @@
       <workItem from="1772848139360" duration="2439000" />
       <workItem from="1780108003493" duration="3721000" />
       <workItem from="1780111767802" duration="1372000" />
-      <workItem from="1780158485299" duration="19218000" />
+      <workItem from="1780158485299" duration="12985000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <option name="closed" value="true" />
@@ -152,23 +157,7 @@
       <option name="project" value="LOCAL" />
       <updated>1780111950645</updated>
     </task>
-    <task id="LOCAL-00008" summary="Add Composite Pattern">
-      <option name="closed" value="true" />
-      <created>1780285007811</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1780285007811</updated>
-    </task>
-    <task id="LOCAL-00009" summary="Fix composition and add enum for decorator">
-      <option name="closed" value="true" />
-      <created>1780286542264</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1780286542264</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,8 +168,6 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Added strategy pattern" />
     <MESSAGE value="Add getName()" />
-    <MESSAGE value="Add Composite Pattern" />
-    <MESSAGE value="Fix composition and add enum for decorator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix composition and add enum for decorator" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add getName()" />
   </component>
 </project>
